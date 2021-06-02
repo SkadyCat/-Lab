@@ -1,0 +1,24 @@
+﻿QMenuBar {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 lightgray, stop:1 darkgray);
+
+    min-height:20px;
+
+    width:90px;
+    margin-left:0px;
+}
+
+QMenuBar::item {
+
+    background: transparent;
+
+
+}
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    background: #a8a8a8;
+}
+
+QMenuBar::item:pressed {
+    background: #888888;
+}

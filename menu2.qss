@@ -1,0 +1,8 @@
+﻿QMenu {
+     background-color: #ABABAB; /* sets background of the menu */
+     border: 0px solid black;
+
+    width:100px;
+
+ }
+

@@ -1,0 +1,20 @@
+﻿QMenu {
+     background-color: #ABABAB; /* sets background of the menu */
+     border: 0px solid black;
+
+
+ }
+
+ QMenu::item {
+     /* sets background of menu item. set this to something non-transparent
+         if you want menu color and menu item color to be different */
+     background-color: transparent;
+
+     min-height:20px;
+     width:80px;
+
+ }
+
+ QMenu::item:selected { /* when user selects item using mouse or keyboard */
+     background-color: #654321;
+ }
